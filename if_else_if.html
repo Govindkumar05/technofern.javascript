@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add(){
+            var a=Number(document.getElementById("first").value);
+            if(a<15 && a>=10){
+                document.write("a is equal to 10 or equal to 11");
+            }
+            else if (a ==15){
+                document.write("a is equal to 15");
+            }
+            else if (a==20){
+                document.write("a is equal to 20");
+            }
+        }
+    </script>
+    <input id="first">
+    <button onclick="add()">Submit</button>
+</body>
+</html>
